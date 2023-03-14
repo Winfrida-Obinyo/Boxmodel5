@@ -6,6 +6,9 @@
     display: inline-block; 
     padding: 2em;
 }
+body{
+    background-color: lightgrey;
+}
 .navbar2 ul li{
     text-align: justify;
     position: relative;
@@ -304,6 +307,7 @@
     }
     .duct2{
         background-color: whitesmoke;
+
     }
 
     .duct3{
@@ -313,7 +317,103 @@
     .duct4{
         background-color: whitesmoke;
     }
-    
+    .whi1{
+        background-color: whitesmoke;
+    }
+    .preview1{
+        background-color: whitesmoke;
+    }
+    .preview8{
+        background-color: whitesmoke;
+    }
+    .shoesa{
+        background-color: white;
+        padding: 22px 12px;
+        border-radius: 1em;
+
+    }
+    .shoesb{
+        background-color: white;
+        padding: 22px 12px;
+        border-radius: 1em;
+        
+    }
+    .shoesc{
+        background-color: white;
+        padding: 22px 12px;
+        border-radius: 1em;
+        
+    }
+    .shoesd{
+        background-color: white;
+        padding: 22px 12px;
+        border-radius: 1em;
+    }
+    .shoese{
+        background-color: white;
+        padding: 22px 12px;
+        border-radius: 1em;
+
+    }
+    .shoesf{
+        background-color: white;
+        padding: 22px 12px;
+        border-radius: 1em;
+
+    }
+    .shoesg{
+        background-color: white;
+        padding: 22px 12px;
+        border-radius: 1em;
+
+    }
+    .shoesh{
+        background-color: white;
+        padding: 22px 12px;
+        border-radius: 1em;
+
+    }
+    .force{
+        width: 160%;
+
+    }
+    .low{
+        width 10%
+    }
+    .simillar{
+        gap: 1em;
+        display: flex;
+    }
+    .hill{
+        padding: 22px 12px;
+        background-color: white;
+        border-radius: 1em;
+    }
+    .products{
+        font-size: 200%;
+        font-weight: bold;
+        text-align: center;
+    }
+    .wind{
+        width: 70%;
+        height: 20%;
+    }
+    .low1{
+        width: 10%;
+    }
+    .low2{
+        width: 10%;
+    }
+    .low3{
+        width: 10%;
+    }
+    .nikeairforce{
+        padding-left: 5%;
+    }
+    .material{
+        padding-right: 30%;
+
+    }
     
 
 
