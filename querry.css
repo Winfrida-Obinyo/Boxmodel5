@@ -1,35 +1,594 @@
-@media screen and (max-width: 3000px) and (min-width:1000px){
-    /* display: grid;
-    grid-template-columns: mask-repeat: (7,1fr);;
+@media only screen and (max-width: 700px){
+    .navbar1 ul li{
+    
+    
+        text-align: justify;
+        margin-top: -2%;
+        font-size: large;
+        display: inline-block; 
+        padding: 2em;
+    }
+    body{
+        background-color: lightgrey;
+    }
+    .navbar2 ul li{
+        text-align: justify;
+        position: relative;
+        left: 800px;
+        list-style: none;
+        bottom: 110px;
+        padding: 40px;
+        float: left;
+    
+    }
+    .main1{
+        background-image: url(/bg_720.png);
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .both{
+        display: flex;
+    }
+    .running{
+        display: flex;
+        gap: 4rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .shoes1{
+        width:300px ;
+        height:200px ;
+        display: flex;
+        border-radius: 30%;
+        
+    }
+    .shoes2{
+        width: 300px;
+        height: 200px;
+        display: flex;
+    }
+        
+    .shoes3{
+        width: 300px;
+        height: 200px;
+        display: flex;
+        ;
+    }
+    .puma{
+        background-color: rgb(78, 169, 169);
+        border-radius: 20%;
+    }
+    .nike{
+        background-color:rebeccapurple;
+        border-radius: 20%;
+    }
+    .adidas{
+        background-color:royalblue;
+        border-radius: 20%;
+        
+    }
+    .collection{
+        text-align: center;
+    }
+    .but1{
+        background-color: red;
+        border-radius: 30%;
+    }
+    .but2{
+        background-color: red;
+        border-radius: 30%;
+    }
+    .but3{
+        background-color: red;
+        border-radius: 30%;
+    }
+    .products{
+        text-align: center;
+    }
+    .users{
+        gap: 3rem;
+        display: flex;
+        margin-left: 5%;
+    }
+    .variety1{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+        margin-left: 5%;
+    }
+    .variety2{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+        margin-left: 5%;
+    }
+    .ultimate h1{
+        font-size: 200%;
+        position: relative;
+        right: 480px;
+    }
+    .lorem{
+        left: 500px;
+        right: 480px;
+    }
+    .game{
+         /* padding: -50px;  */
+    
+    }
+    .game img{
+       width: 170px; 
+       height: 170px;
+       padding-bottom: 50%;
+    }
+    .Offers{
+        display: flex;
+    
+    }
+    .offer1{
+        display: flex;
+        gap: 2rem;
+    }
+    .offer2{
+        display: flex;
+        gap: 2rem;
+    }
+    .arrivals{
+        text-align: center;
+    }
+    .but4{
+        background-color: red;
+    }
+    .testimonial{
+        display: flex;
+        gap: 33rem;
+    }
     .footer{
-    display: flex;
-    gap: 3em;
-    background-color: red;
-    color: white;
-    margin-top: 5%;
-    width: 10%;
-}
-.head{
-    overflow-x: hidden;
-    overflow-y: scroll;
-
-}
-.foot{
-display: flex;
-gap: 5em;
-background-color: red;
-color: white;
-margin-top: 10%;
-border-width:80% ;
-margin-left: 50%;
-} 
-.Information{ 
-background-color: palevioletred;
-    padding-top: 5%;
-    text-align: center; 
-     margin-left: 200px;
-    margin-right: 200px;
-    border-radius:9%;
-     margin-bottom: -100px;
-}
-} */
+        display: flex;
+        gap: 1em;
+        background-color: red;
+        color: white;
+        margin-top: 5%;
+    }.Information{
+            background-color: palevioletred;
+            padding-top: 5%;
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+            border-radius:9%;
+            margin-bottom: -100px;
+        }
+        .manpho{
+            width: 20%;
+            border-radius:25%;
+        }
+        .me{
+            color: brown;
+        }
+        .b1{
+            background-color: red;
+            border-radius: 10%;
+            width: 15%;
+            height: 5%;
+        }
+        .b2{
+            background-color: red;
+            border-radius: 25%;
+            width: 5%;
+            height: 5%;
+        }
+        .shoesa{
+            gap: 5rem;
+        }
+        .see{
+            color: red;
+            border-radius: red;
+            text-align: center;
+        }
+        .off1{
+            color: red;
+        }
+        .off2{
+            color: red;
+        }
+        .cost1{
+            color: red;
+        }
+        .cost2{
+            color: red;
+        }
+        .ee{
+            border: solid red;
+            color: red;
+        }
+        .body{
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+        .sneaker1{
+            width: 50%;
+    
+        
+        }
+        .sneaker2{
+            width: 50%;
+        }
+        .now1{
+            background-color: red;
+            color: white;
+        }
+        .add1{
+            border: red solid;
+            color: red;
+        }
+        .now2{
+            background-color: red;
+            color: white;
+        }
+        .add2{
+            border: red solid;
+            color: red;
+        }
+        .man{
+            position: relative;
+            left: 19px;
+            box-shadow: 0 12px 0 rgba(0,0,0,24),0 17px 50px 0 rgba(0,0,0,19);
+            border-radius: 36px;
+        }
+        .play{
+            background-color: black;
+            color: white;
+        }
+        .store{
+            background-color: black;
+            color: white;
+        }
+        .foot{
+            background-color: red;
+            
+        }
+        .rights{
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+        }
+        .navbara ul li{
+        
+            text-align: justify;
+            margin-top: -2%;
+            font-size: large;
+            display: inline-block; 
+            padding: 2em;
+        }
+        .navbarb ul li{
+            text-align: justify;
+            position: relative;
+            left: 800px;
+            list-style: none;
+            bottom: 110px;
+            padding: 40px;
+            float: left;
+        }
+        .monials{
+            color: brown;
+        }
+        .home{
+            position: relative;
+            right: 583px;
+        }
+        .teamnike{
+            display: flex;
+        }
+        .collection{
+            color: red;
+        }
+        .off{
+            color: red;
+        }
+        .chart{
+            color: red;
+    
+        }
+        .similarproducts{
+        display: flex;
+        gap: 2rem;
+        margin-left: 5%;
+        }
+        .footer1{
+        display: flex;
+        gap: 1em;
+        background-color: red;
+        color: white;
+        margin-top: 5%;
+    
+        }
+        .ord{
+            color: red;
+            border-radius: red;
+        }
+        .to{
+            background-color: red;
+            color: white;
+        }
+        .duct1{
+            background-color: whitesmoke;
+        }
+        .duct2{
+            background-color: whitesmoke;
+    
+        }
+    
+        .duct3{
+            background-color: whitesmoke;
+    
+        }
+        .duct4{
+            background-color: whitesmoke;
+        }
+        .whi1{
+            background-color: whitesmoke;
+        }
+        .preview1{
+            background-color: whitesmoke;
+        }
+        .preview8{
+            background-color: whitesmoke;
+        }
+        .shoesa{
+            background-color: white;
+            padding: 11px 6px;
+            border-radius: 1em;
+    
+        }
+        .shoesb{
+            background-color: white;
+            padding: 11px 6px;
+            border-radius: 1em;
+            
+        }
+        .shoesc{
+            background-color: white;
+            padding: 11px 6px;
+            border-radius: 1em;
+            
+        }
+        .shoesd{
+            background-color: white;
+            padding: 11px 6px;
+            border-radius: 1em;
+        }
+        .shoese{
+            background-color: white;
+            padding: 11px 6px;
+            border-radius: 1em;
+    
+        }
+        .shoesf{
+            background-color: white;
+            padding: 11px 6px;
+            border-radius: 1em;
+    
+        }
+        .shoesg{
+            background-color: white;
+            padding: 11px 6px;
+            border-radius: 1em;
+    
+        }
+        .shoesh{
+            background-color: white;
+            padding: 11px 6px;
+            border-radius: 1em;
+    
+        }
+        .force{
+            width: 160%;
+    
+        }
+        .low{
+            width: 10%;
+        }
+        .simillar{
+            gap: 1em;
+            display: flex;
+        }
+        .hill{
+            padding: 22px 12px;
+            background-color: white;
+            border-radius: 1em;
+        }
+        .products{
+            font-size: 200%;
+            font-weight: bold;
+            text-align: center;
+        }
+        .wind{
+            width: 50%;
+            height: 50%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .low1{
+            width: 30%;
+        }
+        .low2{
+            width: 30%;
+        }
+        .low3{
+            width: 30%;
+        }
+        .nikeairforce{
+            padding-left: 5%;
+        }
+        .material{
+            padding-right: 30%;
+    
+        }
+        .up{
+            padding: 30%;
+            border-radius: 30%;
+        }
+        .navbar3 ul li{
+        
+            text-align: justify;
+            margin-top: -2%;
+            font-size: large;
+            display: inline-block; 
+            padding: 2em;
+        }
+        .navbar4 ul li{
+            text-align: justify;
+            position: relative;
+            left: 400px;
+            list-style: none;
+            bottom: 55px;
+            padding: 20px;
+            float: left;
+        }
+        .pair{
+    
+        }
+        .story{
+            display: flex;
+            margin-left: 50px;
+        }
+        .vision{
+            display: flex;
+        }
+        .Approach{
+            display: flex;
+            margin-right: 25px;
+            gap: 5rem;
+            margin-left: 25px;
+        
+        }
+        .j3{
+            height: 200px;
+            width: 200px;
+    
+        }
+        .footer11{
+            display: flex;
+            gap: 5em;
+            background-color: red;
+            color: white;
+            margin-top: 10%;
+        
+         }
+         .footeb{
+            display: flex;
+            gap: 5em;
+            background-color: red;
+            color: white;
+            margin-top: 5%;
+         }
+        .pair{
+            position: relative;
+            right: 225px;
+            top: 35px;
+        
+            
+        }
+        .story1 {
+            /* position: relative; */
+            /* width: 400%;
+            right: 500px;
+            height: 90px;
+            font-size: 100%;
+            border: solid black;
+            background-color: blue; */
+            
+            /* margin-right: 50px;
+            display: flex;
+            gap: 5rem;
+            margin-left: 50px; */
+    
+        }
+        .story1 p{
+            border 500px;
+        }
+        .vision{
+            display: flex;
+            margin-right: 50px;
+            gap: 5rem;
+            margin-left: 50px;
+            margin-top: 14%;
+    
+        }
+        .ai{
+            height: 400px;
+            width: 400px;
+        }
+        .navbar5 ul li{
+        
+            text-align: justify;
+            margin-top: -2%;
+            font-size: large;
+            display: inline-block; 
+            padding: 2em;
+        }
+        .navbar6 ul li{
+            text-align: justify;
+            position: relative;
+            left: 400px;
+            list-style: none;
+            bottom: 55px;
+            padding: 20px;
+            float: left;
+        }
+        .holder{
+            margin-left: 5%;
+    
+        }
+        .fname1{
+            margin-right: 10%;
+            padding: 10px;
+            background-color: white;
+            border-radius: 15px;
+            margin-top: 10px;
+    
+    
+            
+        }
+        .fname2{
+            margin-left: 35%;
+            padding: 10px;
+            background-color: white;
+            border-radius: 15px;
+            margin-top: 10px;
+        }
+        .fname3{
+            margin-left: 35%;
+            padding: 10px;
+            background-color: white;
+            border-radius: 15px;
+            margin-top: 10px;
+        }
+        .fname4{
+            margin-left: 35%;
+            padding: 10px;
+            background-color: white;
+            border-radius: 15px;
+            margin-top: 10px;
+        }
+        .fname5{
+            margin-left: 35%;
+            padding: 10px;
+            background-color: white;
+            border-radius: 15px;
+            margin-top: 10px;
+        }
+    
+    
+        #profile{
+            margin-left: 5%;
+        }
+        .red{
+            float: right;
+            width: 150px;
+            height: 350px;
+            background-color: red;
+            border-radius: 200px/200px 0px 0px 200px;
+        }
+    }   
