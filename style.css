@@ -420,7 +420,169 @@ body{
         padding: 30%;
         border-radius: 30%;
     }
-    @media screen and (max-width: 3000px) and (min-width:200px){
+    .navbar3 ul li{
+    
+        text-align: justify;
+        margin-top: -2%;
+        font-size: large;
+        display: inline-block; 
+        padding: 2em;
+    }
+    .navbar4 ul li{
+        text-align: justify;
+        position: relative;
+        left: 800px;
+        list-style: none;
+        bottom: 110px;
+        padding: 40px;
+        float: left;
+    }
+    .pair{
+
+    }
+    .story{
+        display: flex;
+        margin-left: 50px;
+    }
+    .vision{
+        display: flex;
+    }
+    .Approach{
+        display: flex;
+        margin-right: 50px;
+        gap: 5rem;
+        margin-left: 50px;
+    
+    }
+    .j3{
+        height: 400px;
+        width: 400px;
+
+    }
+    .footer11{
+        display: flex;
+        gap: 5em;
+        background-color: red;
+        color: white;
+        margin-top: 10%;
+    
+     }
+     .footeb{
+        display: flex;
+        gap: 5em;
+        background-color: red;
+        color: white;
+        margin-top: 10%;
+     }
+    .pair{
+        position: relative;
+        right: 550px;
+        top: 70px;
+    
+        
+    }
+    .story1 {
+        position: relative;
+        width: 400%;
+        right: 500px;
+        height: 90px;
+        font-size: 100%;
+        
+        
+        /* margin-right: 50px;
+        display: flex;
+        gap: 5rem;
+        margin-left: 50px; */
+
+    }
+    .vision{
+        display: flex;
+        margin-right: 50px;
+        gap: 5rem;
+        margin-left: 50px;
+        margin-top: 14%;
+
+    }
+    .ai{
+        height: 400px;
+        width: 400px;
+    }
+    .navbar5 ul li{
+    
+        text-align: justify;
+        margin-top: -2%;
+        font-size: large;
+        display: inline-block; 
+        padding: 2em;
+    }
+    .navbar6 ul li{
+        text-align: justify;
+        position: relative;
+        left: 800px;
+        list-style: none;
+        bottom: 110px;
+        padding: 40px;
+        float: left;
+    }
+    .holder{
+        margin-left: 5%;
+
+    }
+    .fname1{
+        margin-right: 20%;
+        padding: 20px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 20px;
+
+
+        
+    }
+    .fname2{
+        margin-left: 35%;
+        padding: 20px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+    .fname3{
+        margin-left: 35%;
+        padding: 20px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+    .fname4{
+        margin-left: 35%;
+        padding: 20px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+    .fname5{
+        margin-left: 35%;
+        padding: 20px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+
+
+    #profile{
+        margin-left: 10%;
+    }
+    .red{
+        float: right;
+        width: 300px;
+        height: 700px;
+        background-color: red;
+        border-radius: 200px/200px 0px 0px 200px;
+    }
+
+    
+    
+
+    /* @media screen and (max-width: 3000px) and (min-width:200px){
         .footer{
         display: flex;
         gap: 3em;
@@ -451,7 +613,7 @@ body{
         border-radius:9%;
          margin-bottom: -100px;
 }
- }
+ } */
 
     
         

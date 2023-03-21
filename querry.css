@@ -1,0 +1,35 @@
+@media screen and (max-width: 3000px) and (min-width:1000px){
+    /* display: grid;
+    grid-template-columns: mask-repeat: (7,1fr);;
+    .footer{
+    display: flex;
+    gap: 3em;
+    background-color: red;
+    color: white;
+    margin-top: 5%;
+    width: 10%;
+}
+.head{
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+.foot{
+display: flex;
+gap: 5em;
+background-color: red;
+color: white;
+margin-top: 10%;
+border-width:80% ;
+margin-left: 50%;
+} 
+.Information{ 
+background-color: palevioletred;
+    padding-top: 5%;
+    text-align: center; 
+     margin-left: 200px;
+    margin-right: 200px;
+    border-radius:9%;
+     margin-bottom: -100px;
+}
+} */
