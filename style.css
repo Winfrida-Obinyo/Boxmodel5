@@ -384,6 +384,7 @@ body{
     .simillar{
         gap: 1em;
         display: flex;
+        
     }
     .hill{
         padding: 22px 12px;

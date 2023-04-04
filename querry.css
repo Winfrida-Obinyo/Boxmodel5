@@ -1,6 +1,6 @@
 @media only screen and (max-width: 700px){
     .navbar1 ul li{
-    
+
     
         text-align: justify;
         margin-top: -2%;
@@ -36,6 +36,8 @@
         gap: 4rem;
         margin-left: 5%;
         margin-right: 5%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
     .shoes1{
         width:300px ;
@@ -45,28 +47,28 @@
         
     }
     .shoes2{
-        width: 300px;
-        height: 200px;
+        width: 150px;
+        height: 100px;
         display: flex;
     }
         
     .shoes3{
-        width: 300px;
-        height: 200px;
+        width: 150px;
+        height: 100px;
         display: flex;
         ;
     }
     .puma{
         background-color: rgb(78, 169, 169);
-        border-radius: 20%;
+        border-radius: 10%;
     }
     .nike{
         background-color:rebeccapurple;
-        border-radius: 20%;
+        border-radius: 10%;
     }
     .adidas{
         background-color:royalblue;
-        border-radius: 20%;
+        border-radius: 10%;
         
     }
     .collection{
@@ -74,53 +76,50 @@
     }
     .but1{
         background-color: red;
-        border-radius: 30%;
+        border-radius: 15%;
     }
     .but2{
         background-color: red;
-        border-radius: 30%;
+        border-radius: 15%;
     }
     .but3{
         background-color: red;
-        border-radius: 30%;
+        border-radius: 15%;
     }
     .products{
         text-align: center;
     }
     .users{
-        gap: 3rem;
+        gap: 1.5rem;
         display: flex;
-        margin-left: 5%;
+        margin-left: 2.5%;
     }
     .variety1{
+        /* display: flex; */
+        gap: 1rem;
+        margin-left: 2.5%;
         display: grid;
-        grid-template-columns: auto auto;
-        gap: 2rem;
-        margin-left: 5%;
+        grid-template-columns: repeat(1, 1fr);
     }
     .variety2{
+        /* display: flex; */
+        gap: 1rem;
+        margin-left: 2.5%;
         display: grid;
-        grid-template-columns: auto auto;
-        gap: 2rem;
-        margin-left: 5%;
+        grid-template-columns: repeat(1, 1fr);
     }
     .ultimate h1{
-        font-size: 200%;
+        font-size: 100%;
         position: relative;
-        right: 480px;
+        right: 240px;
     }
     .lorem{
-        left: 500px;
-        right: 480px;
+        left: 250px;
+        right: 240px;
     }
     .game{
-         /* padding: -50px;  */
+         padding: -25px; 
     
-    }
-    .game img{
-       width: 170px; 
-       height: 170px;
-       padding-bottom: 50%;
     }
     .Offers{
         display: flex;
@@ -128,11 +127,11 @@
     }
     .offer1{
         display: flex;
-        gap: 2rem;
+        gap: 1rem;
     }
     .offer2{
         display: flex;
-        gap: 2rem;
+        gap: 1rem;
     }
     .arrivals{
         text-align: center;
@@ -142,26 +141,26 @@
     }
     .testimonial{
         display: flex;
-        gap: 33rem;
+        gap: 17rem;
     }
     .footer{
         display: flex;
-        gap: 1em;
+        gap: 2.5em;
         background-color: red;
         color: white;
         margin-top: 5%;
     }.Information{
             background-color: palevioletred;
-            padding-top: 5%;
+            padding-top: 2.5%;
             text-align: center;
             margin-left: 100px;
             margin-right: 100px;
-            border-radius:9%;
-            margin-bottom: -100px;
+            border-radius:4.5%;
+            margin-bottom: -50px;
         }
         .manpho{
-            width: 20%;
-            border-radius:25%;
+            width: 10%;
+            border-radius: 25%;
         }
         .me{
             color: brown;
@@ -232,7 +231,7 @@
         }
         .man{
             position: relative;
-            left: 19px;
+            left: 8px;
             box-shadow: 0 12px 0 rgba(0,0,0,24),0 17px 50px 0 rgba(0,0,0,19);
             border-radius: 36px;
         }
@@ -256,18 +255,18 @@
         .navbara ul li{
         
             text-align: justify;
-            margin-top: -2%;
+            margin-top: -1%;
             font-size: large;
             display: inline-block; 
-            padding: 2em;
+            padding: 1em;
         }
         .navbarb ul li{
             text-align: justify;
             position: relative;
-            left: 800px;
+            left: 400px;
             list-style: none;
-            bottom: 110px;
-            padding: 40px;
+            bottom: 55px;
+            padding: 20px;
             float: left;
         }
         .monials{
@@ -275,7 +274,7 @@
         }
         .home{
             position: relative;
-            right: 583px;
+            right: 296px;
         }
         .teamnike{
             display: flex;
@@ -292,15 +291,15 @@
         }
         .similarproducts{
         display: flex;
-        gap: 2rem;
-        margin-left: 5%;
+        gap: 1rem;
+        margin-left: 2.5%;
         }
         .footer1{
         display: flex;
-        gap: 1em;
+        gap: 2.5em;
         background-color: red;
         color: white;
-        margin-top: 5%;
+        margin-top: 2.5%;
     
         }
         .ord{
@@ -383,23 +382,28 @@
     
         }
         .force{
-            width: 160%;
+            width: 80%;
     
         }
         .low{
-            width: 10%;
+            width: 5%;
         }
         .simillar{
             gap: 1em;
             display: flex;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
         }
         .hill{
-            padding: 22px 12px;
+            padding: 11px 6px;
             background-color: white;
             border-radius: 1em;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+
         }
         .products{
-            font-size: 200%;
+            font-size: 100%;
             font-weight: bold;
             text-align: center;
         }
@@ -410,32 +414,32 @@
             padding-bottom: 20px;
         }
         .low1{
-            width: 30%;
+            width: 15%;
         }
         .low2{
-            width: 30%;
+            width: 15%;
         }
         .low3{
-            width: 30%;
+            width: 15%;
         }
         .nikeairforce{
-            padding-left: 5%;
+            padding-left: 2.5%;
         }
         .material{
-            padding-right: 30%;
+            padding-right: 15%;
     
         }
         .up{
-            padding: 30%;
-            border-radius: 30%;
+            padding: 15%;
+            border-radius: 15%;
         }
         .navbar3 ul li{
         
             text-align: justify;
-            margin-top: -2%;
+            margin-top: -1%;
             font-size: large;
             display: inline-block; 
-            padding: 2em;
+            padding: 1em;
         }
         .navbar4 ul li{
             text-align: justify;
@@ -446,12 +450,10 @@
             padding: 20px;
             float: left;
         }
-        .pair{
-    
-        }
+        
         .story{
             display: flex;
-            margin-left: 50px;
+            margin-left: 25px;
         }
         .vision{
             display: flex;
@@ -459,7 +461,7 @@
         .Approach{
             display: flex;
             margin-right: 25px;
-            gap: 5rem;
+            gap: 2.5rem;
             margin-left: 25px;
         
         }
@@ -470,15 +472,15 @@
         }
         .footer11{
             display: flex;
-            gap: 5em;
+            gap: 2.5em;
             background-color: red;
             color: white;
-            margin-top: 10%;
+            margin-top: 2.5%;
         
          }
          .footeb{
             display: flex;
-            gap: 5em;
+            gap: 2.5em;
             background-color: red;
             color: white;
             margin-top: 5%;
@@ -491,13 +493,13 @@
             
         }
         .story1 {
-            /* position: relative; */
-            /* width: 400%;
-            right: 500px;
-            height: 90px;
-            font-size: 100%;
-            border: solid black;
-            background-color: blue; */
+            background-color: blue;
+            position: relative;
+            width: 200%;
+            right: 520px;
+            height: 45px;
+            font-size: 50%;
+            
             
             /* margin-right: 50px;
             display: flex;
@@ -505,28 +507,25 @@
             margin-left: 50px; */
     
         }
-        .story1 p{
-            border 500px;
-        }
         .vision{
             display: flex;
-            margin-right: 50px;
-            gap: 5rem;
-            margin-left: 50px;
-            margin-top: 14%;
+            margin-right: 25px;
+            gap: 2.5rem;
+            margin-left: 25px;
+            margin-top: 7%;
     
         }
         .ai{
-            height: 400px;
-            width: 400px;
+            height: 200px;
+            width: 200px;
         }
         .navbar5 ul li{
         
             text-align: justify;
-            margin-top: -2%;
+            margin-top: -1%;
             font-size: large;
             display: inline-block; 
-            padding: 2em;
+            padding: 1em;
         }
         .navbar6 ul li{
             text-align: justify;
@@ -538,51 +537,51 @@
             float: left;
         }
         .holder{
-            margin-left: 5%;
+            margin-left: 2.5%;
     
         }
         .fname1{
             margin-right: 10%;
             padding: 10px;
             background-color: white;
-            border-radius: 15px;
+            border-radius: 7.5px;
             margin-top: 10px;
     
     
             
         }
         .fname2{
-            margin-left: 35%;
+            margin-left: 17%;
             padding: 10px;
             background-color: white;
-            border-radius: 15px;
+            border-radius: 7.5px;
             margin-top: 10px;
         }
         .fname3{
-            margin-left: 35%;
+            margin-left: 17%;
             padding: 10px;
             background-color: white;
-            border-radius: 15px;
+            border-radius: 7.5px;
             margin-top: 10px;
         }
         .fname4{
-            margin-left: 35%;
+            margin-left: 17%;
             padding: 10px;
             background-color: white;
-            border-radius: 15px;
+            border-radius: 7.5px;
             margin-top: 10px;
         }
         .fname5{
-            margin-left: 35%;
+            margin-left: 17%;
             padding: 10px;
             background-color: white;
-            border-radius: 15px;
+            border-radius: 7.5px;
             margin-top: 10px;
         }
     
     
         #profile{
-            margin-left: 5%;
+            margin-left: 50%;
         }
         .red{
             float: right;
@@ -591,4 +590,15 @@
             background-color: red;
             border-radius: 200px/200px 0px 0px 200px;
         }
-    }   
+        /* .simillar div{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+
+        @media only screen and(max-width:700px){
+            .simillar{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+            
+        } */
